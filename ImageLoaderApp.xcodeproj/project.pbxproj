@@ -70,7 +70,7 @@
 		79CB213F2BCBE0DB0007E0AE /* MediaCoverageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCoverageRepository.swift; sourceTree = "<group>"; };
 		79CB21422BCBEAD10007E0AE /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
 		79CB21432BCBEB270007E0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		79CB21442BCBEB440007E0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		79CB21442BCBEB440007E0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79CB21462BCBEB970007E0AE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		79CB21482BCBECAF0007E0AE /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		79CB214A2BCBEFBF0007E0AE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -114,6 +114,15 @@
 			path = MockData;
 			sourceTree = "<group>";
 		};
+		79AE249A2BCD365600044089 /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				79CB21442BCBEB440007E0AE /* Info.plist */,
+				79CB21102BCBD3270007E0AE /* Assets.xcassets */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
 		79CB20FE2BCBD3250007E0AE = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +146,6 @@
 		79CB21092BCBD3250007E0AE /* ImageLoaderApp */ = {
 			isa = PBXGroup;
 			children = (
-				79CB21442BCBEB440007E0AE /* Info.plist */,
 				79CB21362BCBD3BA0007E0AE /* App */,
 				79CB21372BCBD3C50007E0AE /* Views */,
 				79CB21382BCBD3D00007E0AE /* ViewModels */,
@@ -145,7 +153,7 @@
 				79CB213A2BCBD3E90007E0AE /* Models */,
 				79CB21452BCBEB850007E0AE /* Utilities */,
 				79CB21412BCBEAAF0007E0AE /* config */,
-				79CB21102BCBD3270007E0AE /* Assets.xcassets */,
+				79AE249A2BCD365600044089 /* OtherFiles */,
 				79CB21122BCBD3270007E0AE /* Preview Content */,
 			);
 			path = ImageLoaderApp;
@@ -555,7 +563,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ImageLoaderApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImageLoaderApp/Info.plist;
+				INFOPLIST_FILE = ImageLoaderApp/OtherFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -585,7 +593,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ImageLoaderApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImageLoaderApp/Info.plist;
+				INFOPLIST_FILE = ImageLoaderApp/OtherFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
