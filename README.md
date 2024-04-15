@@ -1,3 +1,4 @@
+## Vikash Kumar
 # Image Grid with data loaded from Network API
 This app is developed in **SwiftUI** using MVVM and Clean architecture. 
 
