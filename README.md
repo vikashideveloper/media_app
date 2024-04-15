@@ -2,9 +2,9 @@
 This app is developed in **SwiftUI** using MVVM and Clean architecture. 
 
 Images are fetching as per below stpes
-1. from InMemory cache if available
-2. from Disk cache if availabel
-3. from Network if available
+1. from InMemory cache if available, otherwise
+2. from Disk cache if availabel, otherwise
+3. from Network if available, otherwise
 4. No image found message is displaying as image placeholder.
 
    ## Architecture
